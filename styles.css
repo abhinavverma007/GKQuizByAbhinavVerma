@@ -1,0 +1,282 @@
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+label{
+    background-color: aqua;
+    border-color: black;
+    border-style: solid;
+    
+}
+#opt1,#opt2,#opt3,#opt4{
+    background-color: navy;
+    border-radius: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+#questionContainer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.progress{
+    
+    margin-top: 0px;
+  } 
+footer{
+    background-color: white;
+    max-width: 20%;
+    margin: auto;
+   
+}
+#forfooter
+{
+    background-color: white;
+    color:green;
+    font-weight: bolder ;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 30px 0px 50px;
+}
+.quiz-wrapper {
+    height: 455px;
+    width: 650px;
+    background-color: #fff;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+.quiz-wrapper .question {
+    padding: 15px;
+    min-height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    font-size: 15px;
+    float: left;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+.quiz-wrapper .options {
+    float: left;
+    width: 100%;
+}
+.quiz-wrapper .options ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.quiz-wrapper .options ul li {
+    display: inline-block;
+    background-color: #584c47;
+    width: 49%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 12px;
+    box-shadow: 0px 0px 10px grey;
+    cursor: pointer;
+    
+    color: #fff;
+}
+.quiz-wrapper .options ul li:active {
+    box-shadow: 0px 0px 10px grey;
+}
+.quiz-wrapper .options ul li.correct {
+    background-color: rgb(23, 187, 23);
+    box-shadow: 0px 0px 10px rgb(10, 131, 10);
+}
+.quiz-wrapper .options ul li.wrong {
+    background-color: rgb(207, 38, 38);
+    box-shadow: 0px 0px 10px rgb(167, 21, 21);
+}
+.quiz-wrapper .score-card {
+    float: left;
+    width: 100%;
+    padding: 25px 0px;
+}
+.quiz-wrapper .score-card .next {
+    width: 100%;
+    float: right;
+}
+.quiz-wrapper .score-card .next button {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: darksalmon;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px grey;
+    outline: none;
+    transition: ease-out .3s;
+    float: right;
+}
+.quiz-wrapper .score-card .next button:hover {
+    background-color: rgb(182, 107, 83);
+    transition: ease-in .3s;
+}
+.quiz-wrapper .score-card .next button:active {
+    box-shadow: 0px 0px 10px transparent;
+}
+.quiz-wrapper .score-card .score {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    
+}
+.quiz-wrapper .score-card .score span {
+    background-color: darksalmon;
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    
+    body {
+        background-color: rgb(184, 103, 103);
+        margin: 0;
+        padding: 0;
+    }
+    *{
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    h1 {
+        text-align: center;
+        font-family: sans-serif;
+        color: #fff;
+        margin: 30px 0px 50px;
+    }
+    .quiz-wrapper {
+        height: 100vh;
+        width: 95%;
+        background-color: #fff;
+        margin: 30px auto;
+        border-radius: 5px;
+        padding: 30px;
+    }
+    .quiz-wrapper .question {
+        padding: 10px;
+        min-height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+        float: left;
+        width: 85vw;
+        margin-left: -15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    }
+    .quiz-wrapper .options {
+        float: left;
+        width: 100%;
+    }
+    .quiz-wrapper .options ul {
+        list-style: none;
+        padding: 0px;
+        display: block;
+        justify-content: space-between;   
+    }
+    .quiz-wrapper .options ul li {
+        display: block;
+        background-color: #584c47;
+        width: 99%;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 30px;
+        font-size: 15px;
+        box-shadow: 0px 0px 10px grey;
+        cursor: pointer;
+        text-align: center;
+    }
+    .quiz-wrapper .options ul li:active {
+        box-shadow: 0px 0px 10px grey;
+    }
+    .quiz-wrapper .options ul li.correct {
+        background-color: rgb(23, 187, 23);
+        box-shadow: 0px 0px 10px rgb(10, 131, 10);
+    }
+    .quiz-wrapper .options ul li.wrong {
+        background-color: rgb(207, 38, 38);
+        box-shadow: 0px 0px 10px rgb(167, 21, 21);
+    }
+    .quiz-wrapper .score-card {
+        float: left;
+        width: 100%;
+        padding: 35px 0px;
+        margin-top: 15px;
+        display: block;
+    }
+    .quiz-wrapper .score-card .next {
+        width: 100%;
+    }
+    .quiz-wrapper .score-card .next button {
+        padding: 10px 30px;
+        color: #fff;
+        background-color: darksalmon;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px grey;
+        outline: none;
+        transition: ease-out .3s;
+        margin: 20px auto;
+    }
+    .quiz-wrapper .score-card .next button:hover {
+        background-color: rgb(180, 108, 84);
+        transition: ease-in .3s;
+    }
+    .quiz-wrapper .score-card .next button:active {
+        box-shadow: 0px 0px 10px transparent;
+    }
+    .quiz-wrapper .score-card .score {
+        width: 100%;
+        float: left;
+        font-size: 18px;
+        line-height: 40px;
+        text-transform: uppercase;
+        
+    }
+    .quiz-wrapper .score-card .score span {
+        background-color: darksalmon;
+        padding: 3px 15px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    footer{
+        background-color: white;
+        max-width: 20%;
+        margin: auto;
+       
+    }
+    #forfooter
+    {
+    background-color: white;
+    color:green;
+    font-weight: bolder ;
+    }
+}

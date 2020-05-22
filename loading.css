@@ -1,0 +1,62 @@
+.navbar .responsive{
+    position: relative;
+}
+footer{
+    background-color: white;
+    max-width: 20%;
+    margin: auto;
+   
+}
+#forfooter
+{
+    background-color: white;
+    color:green;
+    font-weight: bolder ;
+}
+body{
+    background-color: black;
+}
+.jumbotron{
+    background-color:white;
+    margin: 30px auto;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .navbar .responsive{
+        position: relative;
+}
+    *{
+        box-sizing: border-box;
+        font-family: sans-serif;
+        position: relative;
+    }
+    footer{
+        background-color: white;
+        max-width: 20%;
+        margin: auto;
+       
+    }
+    #forfooter
+    {
+        background-color: white;
+        color:green;
+    font-weight: bolder ;
+    }
+    body{
+        background-color: black;
+        position: relative;
+    }
+    .jumbotron{
+        background-color:white;
+        margin: 30px auto;
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        max-width: 100%;
+    }
+    
+}
