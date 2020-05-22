@@ -9,5 +9,6 @@ Features:
 2) When less than 5 seconds remaining, timer changes color to remind user of time left.
 3) Waits and redirects to other page when quiz is over.
 4) Progress bar to show upto which level the quiz is progressed.
+5) Responsive Web Design. Works well on mobile Phones.
 
 Have fun solving the questions 
