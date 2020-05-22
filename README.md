@@ -8,3 +8,6 @@ Features:
 1) Countdown timer of 20 seconds for each question.
 2) When less than 5 seconds remaining, timer changes color to remind user of time left.
 3) Waits and redirects to other page when quiz is over.
+4) Progress bar to show upto which level the quiz is progressed.
+
+Have fun solving the questions 
