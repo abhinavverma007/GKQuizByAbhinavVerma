@@ -37,13 +37,14 @@ body{
         background-color: white;
         max-width: 40%;
         margin: auto;
+        font-size: x-small;
        
     }
     #forfooter
     {
         background-color: white;
         color:green;
-        font-size: small;
+        
         text-align: center;
     }
     body{
@@ -51,11 +52,12 @@ body{
     }
     .jumbotron{
         background-color:white;
-        margin: 30px auto;
+        margin: 10px auto 10px auto;
         width: 500px;
         height: 500px;
         max-width: 100%;
         max-height: 100%;
+        ;
     }
 
 }

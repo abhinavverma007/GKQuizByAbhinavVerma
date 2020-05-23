@@ -42,17 +42,19 @@ body{
         position: relative;
     }
     footer{
-        background-color: white;
         max-width: 40%;
+        background-color: white;
+        
         margin: auto;
        
     }
     #forfooter
     {
+        text-align: center;
         background-color: white;
         color:green;
         font-size: small;
-        text-align: center;
+        
     }
     body{
         background-color: black;
