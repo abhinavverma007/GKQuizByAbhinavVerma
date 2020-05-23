@@ -11,6 +11,9 @@ label{
     background-color: aqua;
     border-color: black;
     border-style: solid;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 #opt1,#opt2,#opt3,#opt4{
@@ -25,9 +28,9 @@ label{
 }
 .progress{
     
-    margin-top: 0px;
+    margin-top: 40px;
   } 
-footer{
+  footer{
     background-color: white;
     max-width: 20%;
     margin: auto;
@@ -38,6 +41,7 @@ footer{
     background-color: white;
     color:green;
     font-weight: bolder ;
+    text-align: center;
 }
 
 *{
@@ -51,7 +55,7 @@ h1 {
     margin: 30px 0px 50px;
 }
 .quiz-wrapper {
-    height: 455px;
+    height: 450px;
     width: 650px;
     background-color: #fff;
     margin: 30px auto;
@@ -158,6 +162,7 @@ h1 {
         background-color: rgb(184, 103, 103);
         margin: 0;
         padding: 0;
+        height: 100%;
     }
     *{
         box-sizing: border-box;
@@ -169,11 +174,19 @@ h1 {
         color: #fff;
         margin: 30px 0px 50px;
     }
+    label{
+        background-color: aqua;
+        border-color: black;
+        border-style: solid;
+        float: right;
+        
+    }
     .quiz-wrapper {
-        height: 100vh;
+        display: block;
+        overflow: auto;
         width: 95%;
         background-color: #fff;
-        margin: 30px auto;
+        
         border-radius: 5px;
         padding: 30px;
     }
@@ -226,20 +239,22 @@ h1 {
     .quiz-wrapper .score-card {
         float: left;
         width: 100%;
-        padding: 35px 0px;
-        margin-top: 15px;
+        padding: 0px 0px;
+        margin-top: 0px;
         display: block;
     }
     .quiz-wrapper .score-card .next {
         width: 100%;
     }
     .quiz-wrapper .score-card .next button {
-        padding: 10px 30px;
-        color: #fff;
+        padding: 0px 30px;
+        color: black;
         background-color: darksalmon;
+
         border: none;
         border-radius: 5px;
         font-size: 16px;
+        font-weight: bold;
         cursor: pointer;
         box-shadow: 0px 0px 10px grey;
         outline: none;
@@ -269,14 +284,18 @@ h1 {
     }
     footer{
         background-color: white;
-        max-width: 20%;
+        max-width: 40%;
         margin: auto;
        
     }
     #forfooter
     {
-    background-color: white;
-    color:green;
-    font-weight: bolder ;
+        background-color: white;
+        color:green;
+        font-size: small;
+        text-align: center;
+    }
+    .progress{
+        margin-top: 40px;
     }
 }

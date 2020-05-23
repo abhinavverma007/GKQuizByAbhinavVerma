@@ -1,6 +1,7 @@
 .navbar .responsive{
     position: relative;
 }
+
 footer{
     background-color: white;
     max-width: 20%;
@@ -12,22 +13,28 @@ footer{
     background-color: white;
     color:green;
     font-weight: bolder ;
+    text-align: center;
 }
 body{
     background-color: black;
 }
 .jumbotron{
     background-color:white;
-    margin: 30px auto;
+    margin: 10px auto;
     width: 500px;
-    height: 500px;
+    height: 525px;
     background-size: cover;
     max-width: 100%;
+    
+}
+#connect{
+    margin-top: 0px;
 }
 
 @media only screen and (max-width: 768px){
     .navbar .responsive{
         position: relative;
+        
 }
     *{
         box-sizing: border-box;
@@ -36,7 +43,7 @@ body{
     }
     footer{
         background-color: white;
-        max-width: 20%;
+        max-width: 40%;
         margin: auto;
        
     }
@@ -44,7 +51,8 @@ body{
     {
         background-color: white;
         color:green;
-    font-weight: bolder ;
+        font-size: small;
+        text-align: center;
     }
     body{
         background-color: black;
@@ -54,9 +62,11 @@ body{
         background-color:white;
         margin: 30px auto;
         width: 500px;
-        height: 500px;
+        height: 525px;
         background-size: cover;
         max-width: 100%;
+        
+
     }
     
 }
